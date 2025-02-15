@@ -1,0 +1,8 @@
+.mainImage img {
+    /* width: 100vw; */
+    height: auto;
+    object-fit: contain;
+    background-color: aqua;
+    max-width: 100%;
+    display: block
+}
