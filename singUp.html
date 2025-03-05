@@ -3,10 +3,10 @@
 
 <head>
     <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="aboutme.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <script src="signUp.js"> </script>
 </head>
 
 <body>
@@ -23,16 +23,20 @@
             <div class="section sectionTwo"><a href="aboutme.html">About me</a></div>
             <div class="section sectionThree"><a href="experience.html">Experience</a></div>
             <div class="section sectionFour"><a href="hobbies.html">Hobbies</a></div>
-            <div class="section sectionFour"><a href="login.html">Log in</a></div>
+            <div class="section sectionFour"><a href="login.html">Login</a></div>
             <div class="section sectionFour"><a href="singUp.html">Sign Up</a></div>
         </div>
 
     </div>
     <div class="mainContainerTwo">
-        <div class="banner">You are now in the About me subsite</div>
-        <div class="mainImage">
+        <div class="banner">SIGN UP</div>
+        <input id="emailti" placeholder="Enter E-Mail" />
+        <input id="passwordti_1" placeholder="Enter password" />
+        <input id="passwordti_2" placeholder="Repeat password" />
+        <input id="firstnameti" placeholder="Enter first name" />
+        <input id="lastnameti" placeholder="Enter last name" />
 
-        </div>
+        <button onclick="onSignUp()">Sing Up!</button>
 
     </div>
     <footer class="footerContainer">

@@ -3,10 +3,11 @@
 
 <head>
     <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="login.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <script src="login.js"> </script>
 </head>
 
 <body>
@@ -29,10 +30,12 @@
 
     </div>
     <div class="mainContainerTwo">
-        <div class="banner">You are now in the About me subsite</div>
-        <div class="mainImage">
+        <div class="banner">Log in</div>
+        <div id="box">Hallo!</div>
+        <input id="emailti" placeholder="Enter E-Mail" />
+        <input id="passwordti" placeholder="Enter password" />
 
-        </div>
+        <button onclick="onLogin()">Log in!</button>
 
     </div>
     <footer class="footerContainer">
